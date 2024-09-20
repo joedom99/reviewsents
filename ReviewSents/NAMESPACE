@@ -1,0 +1,16 @@
+# Exporting functions from the ReviewSents package
+export(sentiment_scorer)
+export(sentiment_trend_line)
+export(word_cloud_generator)
+export(rating_sentiment_correlation)
+
+# Importing necessary functions from external packages
+importFrom(ggplot2, ggplot, aes, geom_line, geom_point, geom_smooth, labs, theme_minimal)
+importFrom(dplyr, filter, mutate, group_by, summarize, count, inner_join, anti_join)
+importFrom(tidytext, unnest_tokens, get_sentiments)
+importFrom(tidyr, pivot_wider)
+importFrom(wordcloud, wordcloud)
+importFrom(RColorBrewer, brewer.pal)
+importFrom(stats, cor)
+importFrom(tibble, tibble)
+
